@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+   int m;
+   printf("enter a number");
+   scanf("%d",&m);
+   if(m>=91&&m<=100)
+   {
+           printf("grade=0");
+   }
+   else if(m>=81&&m<=90)
+   {
+           printf("grade=A+");
+   }
+   else if(m>=71&&m<=80)
+   {
+           printf("grade=A");
+   }
+   else if(m>=61&&m<=70)
+   {
+           printf("grade=B+");
+   }
+   else if(m>=51&&m<=60)
+   {
+           printf("grade=B");
+   }
+   else
+   {
+          printf("grade=RA");
+   }
+   return 0;
+}
