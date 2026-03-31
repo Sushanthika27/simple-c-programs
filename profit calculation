@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+   int sp,cp,p;
+   printf("enter spandcp");
+   scanf("%d%d",&sp,&cp);
+   p=sp-cp;
+   printf("%d",p);
+   return 0;
+}
