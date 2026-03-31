@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+   int u,bill;
+   printf("enter units");
+   scanf("%d",&u);
+   if(u<=100&&u>0)
+   {
+           bill=0;
+           printf("amount=%d",bill);
+   }
+   else if(u<201)
+   {
+           bill=(u-100)*5;
+           printf("amount=%d",bill);
+   }
+   else if(u>200)
+   {
+           bill=((u-200)*10)+(100*5);
+           printf("amount=%d",bill);
+   }
+   else
+   {
+           printf("invalid input");
+   }
+   return 0;
+}
